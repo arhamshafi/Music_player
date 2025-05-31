@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        let btn = document.createElement("button")
+        
+        btn.style.width = "100px"
+        btn.style.height = "50px"
+        btn.innerHTML = "click"
+        btn.style.color="black"
+        document.body.appendChild(btn)
+
+        btn.addEventListener("click",()=>{
+            window.location.assign("https://netfree2.cc/home?utm_source=home_page")
+            // console.log(window.location);
+            // btn.innerHTML = window.location.hostname
+
+        })
+    </script>
+</body>
+
+</html>
